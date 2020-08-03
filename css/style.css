@@ -1,0 +1,116 @@
+body {
+    background-color: thistle;
+    margin: 0px;
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+}
+
+.mainboard {
+    max-width: 560px;
+    position: absolute;
+    height: 90%;
+    width: 70%;
+    left: 25%;
+    top: 5%;
+    background-color: indigo;
+    border-radius: 20px;
+    border: solid 5px whitesmoke;
+    /* opacity: 0; */
+    display: none;
+    transition: 1s;
+}
+
+.modal {
+    max-width: 560px;
+    position: absolute;
+    font-size: 25px;
+    height: 50%;
+    width: 50%;
+    left: 25%;
+    top: 10%;
+    background-color: yellowgreen;
+    border: solid 5px yellow;
+    border-radius: 20px;
+    transition: 1s;
+    z-index: +1;
+}
+
+.detective {
+    align-content: center;
+    position: relative;
+    height: 70%;
+    top: 5%;
+}
+
+.modalbutton {
+    position: absolute;
+    font-size: 15px;
+    background-color: yellowgreen;
+    border: solid 3px yellow;
+    border-radius: 20px;
+    line-height: 200%;
+    width: 50%;
+    height: 7%;
+    left: 25%;
+    bottom: 5%;
+}
+
+.modalbutton:hover {
+    background-color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 5%;
+    height: 50%;
+    left: 2%;
+    width: 95%;
+    background-color: violet;
+    border-radius: 30px;
+    border: solid 2px white;
+    transition: 1s;
+}
+
+.question {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 60%;
+    left: 5%;
+    text-align: left;
+    transition: 1s;
+}
+
+.answerbox {
+    position: relative;
+    height: 5%;
+    width: 90%;
+    left: 5%;
+    top: 75%;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: thistle;
+    text-align: center;
+    border: solid black 5px;
+    line-height: 200%;
+    font-size: 120%;
+    transition: 1s;
+}
+
+.answerbox:hover {
+    background-color: yellowgreen;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.img {
+    object-fit: cover;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 30px;
+}
